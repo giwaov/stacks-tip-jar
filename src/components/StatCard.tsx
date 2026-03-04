@@ -1,0 +1,1 @@
+import { motion } from 'framer-motion'; export function StatCard({ label, value }: any) { return <motion.div whileHover={{ scale: 1.02 }} className='bg-white/5 rounded-2xl p-4'><p className='text-2xl font-bold'>{value}</p><p className='text-sm text-slate-400'>{label}</p></motion.div>; }
