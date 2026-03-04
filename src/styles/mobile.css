@@ -1,0 +1,89 @@
+/* Mobile-first responsive utilities */
+
+/* Container adjustments for small screens */
+@media (max-width: 640px) {
+  .tip-container {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+  
+  .tip-form {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .tip-amount-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tip-amount-buttons button {
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: 80px;
+  }
+  
+  .supporter-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .tip-list-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .tip-list-item .tip-amount {
+    align-self: flex-start;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tip-container {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .supporter-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Touch-friendly button sizes */
+@media (pointer: coarse) {
+  .btn, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  input, select, textarea {
+    min-height: 44px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Safe area insets for notched devices */
+@supports (padding: max(0px)) {
+  .tip-container {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
