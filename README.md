@@ -1,37 +1,18 @@
 # STX Tip Jar
 
-A decentralized tip jar on **Stacks** (Bitcoin L2) using `@stacks/connect` and `@stacks/transactions`.
+A beautiful tip jar app on Stacks blockchain.
 
 ## Features
 
-- Send STX tips with optional messages
-- View tip history on-chain
-- Real-time stats tracking
-- Owner can withdraw accumulated tips
+- Accept STX tips
+- Anonymous tipping
+- Supporter tiers
+- Real-time stats
 
-## Tech Stack
+## Live Demo
 
-- **Smart Contract**: Clarity
-- **Frontend**: Next.js 14, React 18, TypeScript
-- **Wallet**: `@stacks/connect` v7.7.1
-- **Transactions**: `@stacks/transactions` v6.13.0
-- **Styling**: Tailwind CSS
+https://stacks-tip-jar.vercel.app
 
-## Quick Start
+## Contract
 
-```bash
-npm install
-npm run dev
-```
-
-## Contract Functions
-
-- `tip(amount, message)` - Send a tip with message
-- `get-tip(id)` - Get tip details
-- `get-total-tips` - Total STX received
-- `get-tip-count` - Number of tips
-- `withdraw(amount)` - Owner withdraws funds
-
-## Built For
-
-Stacks Builder Rewards - February 2026
+SP3E0DQAHTXJHH5YT9TZCSBW013YXZB25QFDVXXWY.tip-jar-v2
