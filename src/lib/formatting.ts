@@ -1,0 +1,1 @@
+export function formatSTX(microSTX: number): string { return (microSTX / 1000000).toFixed(2); } export function formatAddress(address: string, chars = 4): string { if (!address) return ''; return address.slice(0, chars + 2) + '...' + address.slice(-chars); }
