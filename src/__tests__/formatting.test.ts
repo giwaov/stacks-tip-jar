@@ -1,0 +1,1 @@
+import { describe, it, expect } from 'vitest'; import { formatSTX } from '../lib/formatting'; describe('formatSTX', () => { it('formats microSTX to STX', () => { expect(formatSTX(1000000)).toBe('1.00'); }); });
