@@ -1,0 +1,1 @@
+import { motion } from 'framer-motion'; export function ProgressBar({ value, max = 100 }: any) { return <div className='h-4 bg-white/10 rounded-full'><motion.div animate={{ width: (value / max * 100) + '%' }} className='h-full bg-gradient-to-r from-orange-500 to-pink-500 rounded-full' /></div>; }
