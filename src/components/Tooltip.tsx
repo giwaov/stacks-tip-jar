@@ -1,0 +1,1 @@
+import { useState } from 'react'; export function Tooltip({ content, children }: any) { const [v, setV] = useState(false); return <div onMouseEnter={() => setV(true)} onMouseLeave={() => setV(false)}>{children}{v && <div className='absolute bg-slate-800 rounded px-2 py-1 text-xs'>{content}</div>}</div>; }
