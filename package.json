@@ -1,6 +1,6 @@
 {
   "name": "stacks-tip-jar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,11 +12,15 @@
     "@stacks/connect": "^7.7.1",
     "@stacks/network": "^6.13.0",
     "@stacks/transactions": "^6.13.0",
+    "canvas-confetti": "^1.9.2",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.372.0",
     "next": "14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@types/canvas-confetti": "^1.6.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
