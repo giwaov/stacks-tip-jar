@@ -1,0 +1,1 @@
+import { describe, it, expect } from 'vitest'; import { isValidSTXAddress } from '../lib/validation'; describe('isValidSTXAddress', () => { it('validates addresses', () => { expect(isValidSTXAddress('SP123')).toBe(true); }); });
