@@ -1,6 +1,6 @@
 {
   "name": "stacks-tip-jar",
-  "version": "2.0.0",
+  "version": "2.0.61",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -32,3 +32,4 @@
     "typescript": "^5"
   }
 }
+
