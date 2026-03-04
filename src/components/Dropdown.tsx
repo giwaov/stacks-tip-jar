@@ -1,0 +1,1 @@
+import { useState } from 'react'; export function Dropdown({ trigger, children }: any) { const [open, setOpen] = useState(false); return <div><button onClick={() => setOpen(!open)}>{trigger}</button>{open && <div className='absolute bg-slate-800 rounded-xl'>{children}</div>}</div>; }
