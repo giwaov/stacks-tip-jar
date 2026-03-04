@@ -39,6 +39,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <meta name="talentapp:project_verification" content="b6300f90e937cc3799b7decc1392ba16aaf00581b3775472f383f9ea3014b0abe9bd430bbb995b9b6d6e95c766455e2486c80615594344597927fec341a6" />
+      </head>
       <body className={`${inter.className} min-h-screen`}>{children}</body>
     </html>
   );
