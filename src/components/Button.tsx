@@ -1,0 +1,1 @@
+import { motion } from 'framer-motion'; export function Button({ children, ...props }: any) { return <motion.button whileHover={{ scale: 1.02 }} className='px-4 py-2 bg-gradient-to-r from-orange-500 to-pink-500 rounded-xl' {...props}>{children}</motion.button>; }
