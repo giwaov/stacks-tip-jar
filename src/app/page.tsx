@@ -34,13 +34,13 @@ import {
 } from "lucide-react";
 import confetti from "canvas-confetti";
 
-// Contract details - Update with your deployed contract
-const CONTRACT_ADDRESS = "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM"; // Update this
-const CONTRACT_NAME = "tip-jar";
+// Contract details - Deployed on Stacks Mainnet
+const CONTRACT_ADDRESS = "SP3E0DQAHTXJHH5YT9TZCSBW013YXZB25QFDVXXWY";
+const CONTRACT_NAME = "tip-jar-v2";
 
 const appConfig = new AppConfig(["store_write", "publish_data"]);
 const userSession = new UserSession({ appConfig });
-const network = new StacksTestnet(); // Change to StacksMainnet for production
+const network = new StacksMainnet(); // Production mainnet
 
 interface Tip {
   tipper: string;
@@ -101,7 +101,7 @@ export default function Home() {
     if (userSession.isUserSignedIn()) {
       const data = userSession.loadUserData();
       setIsConnected(true);
-      setAddress(data.profile.stxAddress.testnet); // Change to mainnet for production
+      setAddress(data.profile.stxAddress.mainnet); // Production mainnet
     }
   }, []);
 
