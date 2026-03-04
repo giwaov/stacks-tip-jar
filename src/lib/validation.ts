@@ -1,0 +1,1 @@
+export function isValidSTXAddress(address: string): boolean { return address.startsWith('SP') || address.startsWith('ST'); } export function isValidAmount(amount: string): boolean { const num = parseFloat(amount); return !isNaN(num) && num > 0; }
