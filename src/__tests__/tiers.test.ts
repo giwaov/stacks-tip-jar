@@ -1,0 +1,1 @@
+import { describe, it, expect } from 'vitest'; import { getTierFromAmount } from '../lib/tiers'; describe('getTierFromAmount', () => { it('returns tiers', () => { expect(getTierFromAmount(0)).toBe('none'); }); });
