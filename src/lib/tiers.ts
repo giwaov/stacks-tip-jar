@@ -1,0 +1,1 @@
+export function getTierFromAmount(microSTX: number) { if (microSTX >= 50000000) return 'platinum'; if (microSTX >= 10000000) return 'gold'; if (microSTX >= 5000000) return 'silver'; if (microSTX >= 1000000) return 'bronze'; return 'none'; }
