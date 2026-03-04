@@ -1,0 +1,1 @@
+import { useState } from 'react'; export function Tabs({ tabs }: { tabs: { id: string; label: string; content: any }[] }) { const [activeTab, setActiveTab] = useState(tabs[0]?.id); return <div><div className='flex gap-2'>{tabs.map(t => <button key={t.id} onClick={() => setActiveTab(t.id)}>{t.label}</button>)}</div><div>{tabs.find(t => t.id === activeTab)?.content}</div></div>; }
