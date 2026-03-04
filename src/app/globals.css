@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  
   body {
     @apply bg-slate-900 text-white antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
