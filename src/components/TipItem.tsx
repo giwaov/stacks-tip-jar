@@ -1,0 +1,1 @@
+import { Avatar } from './Avatar'; export function TipItem({ tip }: any) { return <div className='bg-white/5 rounded-xl p-4'><div className='flex justify-between'><Avatar address={tip.tipper} /><span className='text-orange-400'>{tip.amount} STX</span></div></div>; }
