@@ -1,0 +1,1 @@
+export function Avatar({ address }: any) { const initials = address?.slice(0, 2) || '??'; return <div className='rounded-full bg-gradient-to-br from-orange-500 to-pink-500 w-8 h-8 flex items-center justify-center font-bold'>{initials}</div>; }
