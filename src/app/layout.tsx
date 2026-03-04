@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   description: "A beautiful tip jar on Stacks blockchain. Support your favorite creators with STX, earn supporter tiers, and track your contributions. Built with @stacks/connect.",
   keywords: ["Stacks", "STX", "Tip Jar", "Blockchain", "Web3", "Bitcoin", "Support Creators"],
   authors: [{ name: "giwaov" }],
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "STX Tip Jar | Support Creators on Stacks",
     description: "Support your favorite creators with STX on Stacks blockchain. Supporter tiers, anonymous tipping, and funding goals.",
