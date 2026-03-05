@@ -1,0 +1,2 @@
+'use client';
+export const TransactionLink = ({ txId }: { txId: string }) => <a href={`https://explorer.stacks.co/txid/${txId}?chain=mainnet`} target="_blank" rel="noopener" className="text-blue-600 hover:underline font-mono text-sm">{txId.slice(0, 8)}...{txId.slice(-8)}</a>;
