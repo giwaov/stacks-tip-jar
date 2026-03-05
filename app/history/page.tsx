@@ -1,0 +1,2 @@
+'use client';
+export default function HistoryPage() { return <div className="max-w-2xl mx-auto p-6"><h1 className="text-2xl font-bold">Tip History</h1><p className="mt-4 text-gray-500">Your tip history will appear here.</p></div>; }
