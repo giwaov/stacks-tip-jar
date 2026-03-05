@@ -1,0 +1,3 @@
+'use client';
+import { useState, useEffect } from 'react';
+export const CountUp = ({ end, duration = 2000 }: { end: number; duration?: number }) => { const [count, setCount] = useState(0); useEffect(() => { const start = Date.now(); const step = () => { const progress = Math.min((Date.now() - start) / duration, 1); setCount(end * progress); if (progress < 1) requestAnimationFrame(step); }; requestAnimationFrame(step); }, [end, duration]); return <span>{count.toFixed(2)}</span>; };
