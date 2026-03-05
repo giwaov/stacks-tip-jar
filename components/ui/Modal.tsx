@@ -1,0 +1,3 @@
+'use client';
+import { useRef } from 'react';
+export const Modal = ({ isOpen, onClose, title, children }: any) => { if (!isOpen) return null; return <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50"><div className="bg-white rounded-xl shadow-xl max-w-md w-full mx-4 p-6">{title && <h2 className="text-xl font-bold mb-4">{title}</h2>}{children}<button onClick={onClose} className="mt-4 px-4 py-2 bg-gray-200 rounded">Close</button></div></div>; };
