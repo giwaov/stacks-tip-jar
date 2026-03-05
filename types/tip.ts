@@ -1,0 +1,2 @@
+export interface Tip { id: string; sender: string; amount: number; message?: string; timestamp: number; status: 'pending' | 'confirmed' | 'failed'; }
+export interface TipStats { total: number; count: number; average: number; }
