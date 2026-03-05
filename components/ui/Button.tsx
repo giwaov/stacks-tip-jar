@@ -1,0 +1,3 @@
+'use client';
+const variants = { primary: 'bg-blue-500 text-white hover:bg-blue-600', secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300', outline: 'border-2 border-blue-500 text-blue-500 hover:bg-blue-50' };
+export const Button = ({ children, variant = 'primary', ...props }: any) => <button className={`px-4 py-2 rounded-lg font-medium transition-colors ${variants[variant]}`} {...props}>{children}</button>;
