@@ -1,0 +1,2 @@
+import { create } from 'zustand';
+export const useUserStore = create((set) => ({ address: null, balance: 0, setAddress: (a: string) => set({ address: a }), setBalance: (b: number) => set({ balance: b }) }));
