@@ -1,0 +1,2 @@
+export const ROUTES = { HOME: '/', SEND: '/send', HISTORY: '/history', SETTINGS: '/settings' };
+export const EXTERNAL = { GITHUB: 'https://github.com/giwaov/stacks-tip-jar', EXPLORER: 'https://explorer.stacks.co' };
