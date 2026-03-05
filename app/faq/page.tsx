@@ -1,0 +1,3 @@
+'use client';
+const faqs = [{ q: 'What is this?', a: 'A decentralized tipping platform.' }, { q: 'How to tip?', a: 'Connect wallet and send STX.' }];
+export default function FAQPage() { return <div className="max-w-2xl mx-auto p-6"><h1 className="text-2xl font-bold">FAQ</h1>{faqs.map((f, i) => <details key={i} className="mt-4 p-4 bg-gray-50 rounded"><summary>{f.q}</summary><p className="mt-2">{f.a}</p></details>)}</div>; }
