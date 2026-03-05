@@ -1,0 +1,2 @@
+import { useState } from 'react';
+export function useTransaction() { const [status, setStatus] = useState<'pending' | 'success' | 'failed' | null>(null); const track = (id: string) => { setStatus('pending'); }; return { status, track }; }
