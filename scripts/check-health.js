@@ -1,0 +1,2 @@
+const urls = ['https://api.mainnet.hiro.so/v2/info', 'https://stacks-tip-jar.vercel.app'];
+(async () => { for (const url of urls) { try { const start = Date.now(); const res = await fetch(url); console.log(`✅ ${url} - ${res.status} (${Date.now() - start}ms)`); } catch (e) { console.log(`❌ ${url} - ${e.message}`); } } })();
