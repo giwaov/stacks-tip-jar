@@ -1,0 +1,2 @@
+export interface Transaction { txId: string; type: 'tip' | 'withdrawal'; amount: number; status: 'pending' | 'success' | 'failed'; timestamp: number; }
+export interface TxReceipt { txId: string; success: boolean; }
