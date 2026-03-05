@@ -1,0 +1,3 @@
+export class AppError extends Error { constructor(message: string, public code: string, public statusCode = 500) { super(message); this.name = 'AppError'; } }
+export class ValidationError extends AppError { constructor(message: string) { super(message, 'VALIDATION_ERROR', 400); } }
+export class NetworkError extends AppError { constructor(message = 'Network failed') { super(message, 'NETWORK_ERROR', 503); } }
