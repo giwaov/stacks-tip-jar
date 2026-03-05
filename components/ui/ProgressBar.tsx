@@ -1,0 +1,2 @@
+'use client';
+export const ProgressBar = ({ value, max = 100 }: { value: number; max?: number }) => { const pct = Math.min((value / max) * 100, 100); return <div className="w-full"><div className="h-2 bg-gray-200 rounded-full overflow-hidden"><div className="h-full bg-blue-500 rounded-full transition-all" style={{ width: `${pct}%` }} /></div><p className="text-sm text-gray-500 mt-1">{Math.round(pct)}%</p></div>; };
