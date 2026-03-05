@@ -1,0 +1,3 @@
+const LOG = { debug: 0, info: 1, warn: 2, error: 3 };
+const level = process.env.NODE_ENV === 'production' ? 'warn' : 'debug';
+export const logger = { debug: (...a: any[]) => LOG['debug'] >= LOG[level] && console.debug('[DEBUG]', ...a), info: (...a: any[]) => LOG['info'] >= LOG[level] && console.info('[INFO]', ...a), warn: (...a: any[]) => LOG['warn'] >= LOG[level] && console.warn('[WARN]', ...a), error: (...a: any[]) => LOG['error'] >= LOG[level] && console.error('[ERROR]', ...a) };
