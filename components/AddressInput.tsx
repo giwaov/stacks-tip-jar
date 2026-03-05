@@ -1,0 +1,3 @@
+'use client';
+import { useState } from 'react';
+export const AddressInput = ({ value, onChange }: any) => { const [error, setError] = useState(''); return <div><input value={value} onChange={e => { onChange(e.target.value); setError(!/^S[PM]/.test(e.target.value) ? 'Invalid address' : ''); }} placeholder="STX address" className="w-full px-4 py-2 border rounded" />{error && <p className="text-red-500 text-sm">{error}</p>}</div>; };
