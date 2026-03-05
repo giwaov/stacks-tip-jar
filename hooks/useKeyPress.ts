@@ -1,0 +1,3 @@
+import { useEffect, useCallback } from 'react';
+export const useKeyPress = (key: string, handler: () => void) => { const h = useCallback((e: KeyboardEvent) => { if (e.key === key) handler(); }, [key, handler]); useEffect(() => { document.addEventListener('keydown', h); return () => document.removeEventListener('keydown', h); }, [h]); };
+export const useEscapeKey = (h: () => void) => useKeyPress('Escape', h);
