@@ -1,0 +1,2 @@
+'use client';
+export const Divider = ({ label }: { label?: string }) => label ? <div className="relative my-4"><div className="absolute inset-0 flex items-center"><div className="w-full border-t" /></div><div className="relative flex justify-center"><span className="px-2 bg-white text-sm text-gray-500">{label}</span></div></div> : <hr className="border-gray-200 my-4" />;
