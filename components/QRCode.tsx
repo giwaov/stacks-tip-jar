@@ -1,0 +1,2 @@
+'use client';
+export const QRCode = ({ value, size = 128 }: { value: string; size?: number }) => <div className="bg-gray-100 rounded-lg flex items-center justify-center" style={{ width: size, height: size }}><span className="text-gray-500 text-xs">QR: {value.slice(0, 8)}...</span></div>;
