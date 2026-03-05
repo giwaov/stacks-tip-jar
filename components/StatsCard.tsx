@@ -1,0 +1,2 @@
+'use client';
+export const StatsCard = ({ title, value, suffix = '' }: any) => <div className="p-6 bg-white rounded-xl shadow"><p className="text-sm text-gray-500">{title}</p><p className="mt-2 text-3xl font-bold">{value}{suffix}</p></div>;
