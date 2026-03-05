@@ -1,0 +1,2 @@
+export const groupBy = <T>(arr: T[], key: keyof T) => arr.reduce((acc, item) => { const k = String(item[key]); (acc[k] = acc[k] || []).push(item); return acc; }, {} as Record<string, T[]>);
+export const sortBy = <T>(arr: T[], key: keyof T) => [...arr].sort((a, b) => a[key] < b[key] ? -1 : 1);
