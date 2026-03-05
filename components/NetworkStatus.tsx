@@ -1,0 +1,3 @@
+'use client';
+import { useState, useEffect } from 'react';
+export const NetworkStatus = () => { const [online, setOnline] = useState(true); useEffect(() => { const handle = () => setOnline(navigator.onLine); window.addEventListener('online', handle); window.addEventListener('offline', handle); return () => { window.removeEventListener('online', handle); window.removeEventListener('offline', handle); }; }, []); return <div className={`px-2 py-1 rounded text-xs ${online ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>{online ? 'Online' : 'Offline'}</div>; };
