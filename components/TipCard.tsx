@@ -1,0 +1,2 @@
+'use client';
+export const TipCard = ({ tip }: any) => <div className="p-4 bg-white rounded-lg shadow"><div className="flex justify-between"><span className="font-medium">{tip.sender.slice(0, 8)}...</span><span className="font-bold text-blue-600">{tip.amount} STX</span></div>{tip.message && <p className="mt-2 text-gray-600">{tip.message}</p>}</div>;
