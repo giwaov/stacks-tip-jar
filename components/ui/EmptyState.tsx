@@ -1,0 +1,2 @@
+'use client';
+export const EmptyState = ({ title, description }: { title: string; description?: string }) => <div className="py-12 text-center"><h3 className="text-lg font-medium">{title}</h3>{description && <p className="mt-2 text-gray-500">{description}</p>}</div>;
