@@ -1,0 +1,3 @@
+'use client';
+import { useState } from 'react';
+export const AmountInput = ({ value, onChange, balance }: any) => { const [error, setError] = useState(''); return <div><div className="relative"><input value={value} onChange={e => { onChange(e.target.value); setError(parseFloat(e.target.value) > balance ? 'Insufficient balance' : ''); }} placeholder="0.00" className="w-full px-4 py-2 pr-16 border rounded" /><span className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500">STX</span></div>{error && <p className="text-red-500 text-sm">{error}</p>}</div>; };
