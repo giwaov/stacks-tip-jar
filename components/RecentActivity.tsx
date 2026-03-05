@@ -1,0 +1,2 @@
+'use client';
+export const RecentActivity = ({ activities }: { activities: { type: string; amount: number; time: Date }[] }) => <div className="space-y-2">{activities.map((a, i) => <div key={i} className="flex justify-between text-sm"><span>{a.type}</span><span className="font-medium">{a.amount} STX</span></div>)}</div>;
