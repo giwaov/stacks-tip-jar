@@ -1,7 +1,10 @@
 {
   "name": "stacks-tip-jar",
   "version": "2.1.0",
-  "private": true,
+  "description": "Accept crypto tips on Stacks blockchain - decentralized tip jar for content creators",
+  "author": "giwaov",
+  "license": "MIT",
+  "keywords": ["stacks", "blockchain", "crypto", "tips", "bitcoin", "web3", "clarity"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
