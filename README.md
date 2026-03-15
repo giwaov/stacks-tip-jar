@@ -5,6 +5,7 @@
 **Accept crypto tips on Stacks (Bitcoin L2) with beautiful UI and on-chain transparency**
 
 [![Live on Mainnet](https://img.shields.io/badge/Stacks-Mainnet-brightgreen?logo=bitcoin)](https://explorer.hiro.so/address/SP3E0DQAHTXJHH5YT9TZCSBW013YXZB25QFDVXXWY.tip-jar-v3?chain=mainnet)
+[![npm downloads](https://img.shields.io/npm/dw/stacks-tip-jar-sdk?color=orange&label=npm%20downloads)](https://www.npmjs.com/package/stacks-tip-jar-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
