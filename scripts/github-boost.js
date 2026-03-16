@@ -35,23 +35,27 @@ function addCommit(repoPath, message) {
   try {
     process.chdir(repoPath);
     
-    // Create/update activity log
+    // Create/update activity log with unique content
     const logFile = path.join(repoPath, "ACTIVITY_LOG.md");
     const timestamp = new Date().toISOString();
-    const logEntry = `\n- ${timestamp}: ${message}\n`;
+    const random = Math.random().toString(36).substring(7);
+    const logEntry = `\n## ${timestamp}\n- ${message}\n- Session: ${random}\n- Build: ${Date.now()}\n`;
     
     if (fs.existsSync(logFile)) {
-      fs.appendFileSync(logFile, logEntry);
+      let content = fs.readFileSync(logFile, "utf8");
+      content += logEntry;
+      fs.writeFileSync(logFile, content);
     } else {
-      fs.writeFileSync(logFile, `# Activity Log\n${logEntry}`);
+      fs.writeFileSync(logFile, `# Activity Log\n\nTracking development progress.\n${logEntry}`);
     }
 
     execSync("git add -A", { stdio: "pipe" });
-    execSync(`git commit -m "${message}"`, { stdio: "pipe" });
-    execSync("git push origin master", { stdio: "pipe" });
+    execSync(`git commit -m "${message}" --allow-empty`, { stdio: "pipe" });
+    execSync("git push origin master", { stdio: "pipe", timeout: 30000 });
     
     return true;
   } catch (e) {
+    console.error(e.message);
     return false;
   }
 }
