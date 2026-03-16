@@ -1,0 +1,219 @@
+[
+  {
+    "timestamp": "2026-03-16T17:57:36.867Z",
+    "transactions": 10,
+    "details": {
+      "tips": [
+        {
+          "success": true,
+          "txid": "177624d4fe03416f6f1fbf3b7cbaf0deafecd1a51895c5abeac96f7fd5b5e19a"
+        },
+        {
+          "success": true,
+          "txid": "c5594844d808f4a783c1d7c7548b8423cd7e33df2f3a34592986fa99db6ccf90"
+        },
+        {
+          "success": true,
+          "txid": "9786403dabaaa2977889def2d928c21d79985bd7d4096fe91ed4b85427efcde5"
+        },
+        {
+          "success": true,
+          "txid": "05c1f6100ac421708651545327df2b3a470ee6a41112981a41ff83c49897200e"
+        },
+        {
+          "success": true,
+          "txid": "cdac1756ffec7d62267128fbb946566842424d90f81e56653dcdae90e3f73689"
+        }
+      ],
+      "polls": [
+        {
+          "success": true,
+          "txid": "7569fbd882e0d0e142318d858433e269da3fe625a311aebd33cca38947ef72d7"
+        },
+        {
+          "success": true,
+          "txid": "0fcbcedccccbcae440461523ee4753cfdbd18f5b92594828ea56c617cf62306d"
+        }
+      ],
+      "votes": [
+        {
+          "success": true,
+          "txid": "8437fafc0fe031c42ac379b0a557d1e415ea7d17ad90fcd28ade2389aa4c6fed"
+        },
+        {
+          "success": true,
+          "txid": "2db4a1b7b47f388e9374589efaf8a590c3512b12c2ea18a7b110f7e81c18435e"
+        },
+        {
+          "success": true,
+          "txid": "0099417fd76a3595cd8a1f285c258e3f780b600eb93b9a768ec682b85474bf96"
+        }
+      ],
+      "transfers": [
+        {
+          "success": false
+        },
+        {
+          "success": false
+        },
+        {
+          "success": false
+        },
+        {
+          "success": false
+        },
+        {
+          "success": false
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-16T17:59:23.042Z",
+    "transactions": 15,
+    "details": {
+      "tips": [
+        {
+          "success": true,
+          "txid": "8186309c2d01f509597282a15b7b8d2ab8fc5362f4778a90636f796a370a5c4f"
+        },
+        {
+          "success": true,
+          "txid": "227a73a52cef8b8868210db93291493ca75db778fbb1750cf6f5f563d5f93d9e"
+        },
+        {
+          "success": true,
+          "txid": "b1efb3c6ae60b0f72028d59e227287d7a8d2fbc7adeef8fde60a1fc86baf5241"
+        },
+        {
+          "success": true,
+          "txid": "db0cc0f3c3ccb95c60899482735705048b10adc7a06cf073bcc022f7616ebad7"
+        },
+        {
+          "success": true,
+          "txid": "15e2cd72ca7300e9101b3fb121a79e1dda51395847cba4a6725cb2232b972d63"
+        }
+      ],
+      "polls": [
+        {
+          "success": true,
+          "txid": "d3c14924484cd515baa8ad6ec97fd1275f014c8b0ed7ba00796ca33c15f1da43"
+        },
+        {
+          "success": true,
+          "txid": "165c71e65feb1b632a440cf60ceb9d0561847d03db20f605e5f272575204e161"
+        }
+      ],
+      "votes": [
+        {
+          "success": true,
+          "txid": "83d4796bfcde4725478c516dacc01a35f33c56ac74ce44c01cb46960f2af3d48"
+        },
+        {
+          "success": true,
+          "txid": "ac5bd9e710021310e08367ace72950d4586802559f04aa8a2c506c962c1149ae"
+        },
+        {
+          "success": true,
+          "txid": "95b207f8e90d65f0791e4497c646e9218d7716b3ef302dcff9c7f747f901b98a"
+        }
+      ],
+      "transfers": [
+        {
+          "success": true,
+          "txid": "3afe014ed1b941da794308dde616953a7641dee9259c34d0fcba40d547a1157b"
+        },
+        {
+          "success": true,
+          "txid": "0183cf8412264d1e5e5fdd57dab0601b34b16f4b523cd547bbb377b9609b5f35"
+        },
+        {
+          "success": true,
+          "txid": "dfa99aff464d8b8ae2baf566caecf7a959190b0285b2988668f3418dcba5fc3b"
+        },
+        {
+          "success": true,
+          "txid": "0df988eb4ae250b8debc6cf1a2cb2c3c9077b4b04150c39d8474a3485c024d63"
+        },
+        {
+          "success": true,
+          "txid": "75727e20fbcf34f7611c70766678ade058c3185df43b295983918f022f5feef3"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-16T18:00:31.642Z",
+    "transactions": 15,
+    "details": {
+      "tips": [
+        {
+          "success": true,
+          "txid": "e6bd385ad8afffcd02f700ebfd23e2f4a24ff36da1523f0a1e56c259058cd0e8"
+        },
+        {
+          "success": true,
+          "txid": "11eda9b7d93480c79a309133c8608f0d17c0b73c59f4a85a1f49662b401febdb"
+        },
+        {
+          "success": true,
+          "txid": "64f242c1af939c3d4f587043eceb4451b9391e611980f493a96d840804df4eef"
+        },
+        {
+          "success": true,
+          "txid": "936d48363c48240bfccd44927a75beaaa9e047a502242bca188af76d95419a6a"
+        },
+        {
+          "success": true,
+          "txid": "0ebad7b44c5281fe6ad92928fd210270a373905226942f03b031f57f0d693d91"
+        }
+      ],
+      "polls": [
+        {
+          "success": true,
+          "txid": "86dfa437273568a6024ff4113764bc0ad9d0976dc5b2a7c3c785b1209818bb78"
+        },
+        {
+          "success": true,
+          "txid": "773d9146086c8b82bfe7e093881bbe03bf19d32117091f032b1828ff5a9462d2"
+        }
+      ],
+      "votes": [
+        {
+          "success": true,
+          "txid": "f21478ea075eceaac7e7ca747b5c119890e356771af794a7d88fa356948bc8af"
+        },
+        {
+          "success": true,
+          "txid": "ef55d2ab3c3ed535513a076efa56ea7714750dacc9cf1fa8344fb288b8d8ef69"
+        },
+        {
+          "success": true,
+          "txid": "f5513e1f604b093cc80e7d9bb43ccb00c26477758e3210ead2e3d32f89330cbd"
+        }
+      ],
+      "transfers": [
+        {
+          "success": true,
+          "txid": "e7272833b5bdec1de70a02ef3551bef86cf9b30b1ccf6a687ec0fa4f5398cfa3"
+        },
+        {
+          "success": true,
+          "txid": "19b799cb9c53d2d5b4649e623bb4166f397b2a0c146a63d22e94749b801d7c17"
+        },
+        {
+          "success": true,
+          "txid": "30583a956f7e41125736ded40e869cbad67e1406a47535c52cbb13dc2bfff6b4"
+        },
+        {
+          "success": true,
+          "txid": "ed074c47ccc2ac30e21a8b6830c4e5522bc13cfcb2ac8ef5bc8d034c817952ec"
+        },
+        {
+          "success": true,
+          "txid": "6d758e2bc836858b0fa8a7facd58a112d54ab352b0b81cf11d2a4c0a9c581a67"
+        }
+      ]
+    }
+  }
+]

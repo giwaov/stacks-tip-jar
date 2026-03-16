@@ -1,10 +1,21 @@
 {
-  "name": "stacks-tip-jar",
+  "name": "@giwaov/stacks-tip-jar",
   "version": "2.1.0",
   "description": "Accept crypto tips on Stacks blockchain - decentralized tip jar for content creators",
   "author": "giwaov",
   "license": "MIT",
-  "keywords": ["stacks", "blockchain", "crypto", "tips", "bitcoin", "web3", "clarity"],
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "crypto",
+    "tips",
+    "bitcoin",
+    "web3",
+    "clarity"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +26,7 @@
     "@stacks/connect": "^7.7.1",
     "@stacks/network": "^6.13.0",
     "@stacks/transactions": "^6.13.0",
+    "@stacks/wallet-sdk": "^7.2.0",
     "canvas-confetti": "^1.9.2",
     "framer-motion": "^11.0.0",
     "lucide-react": "^0.372.0",

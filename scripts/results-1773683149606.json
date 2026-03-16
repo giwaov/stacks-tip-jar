@@ -1,0 +1,288 @@
+{
+  "funding": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "3ceb8cb47dbaebf409ced174e03e630d5b8a4ce28b18c264bcd5e605e8a734a7"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "da830f487489fb60b9a8d4bd657f0eec39ede4e3acf9927405878bef2e9d382f"
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": false
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "3a8868f3e8be2e9de209fd0e40915ccf7d6ac44dcc1ac5c65e41478b5acb61dc"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": false
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "bf252d4b281494e85d18fc1c7cd86ce1a7f8c2f2c152c551871bda435715a868"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": false
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "57346b552b1f8fb27bc8bb0dacdaff49864678f31456b85aadcb714dd8ad29af"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "5ddeb1e09144f4fbc7d052df99d2dbee9a4b41e66f92e899bbec1f7451e02a75"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": false
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ],
+  "tips": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "75ce90542d7d3e0a462a0638520d679111f9377a84a3882841670e87a48948ec"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "1a119514ab6e44a6b1259879dee11482c84f178eddd197992d4c490c7901139c"
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": false
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "c121fe9b08fc0a66264fe5267cc7665a5140cecd9fd348c26eac49c407d197ce"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": false
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "db46b90080b17f2778ac74d398c2c5185b4857592445b862215224089c79c2ad"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": false
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "070c60be43266992cf3af02414d0c31ebb47b06331e604060d6feece3634bad7"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "33bdc7da7b291016abaaa86355d373fdb21d05ec108f2ae42eae339f163745a5"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": false
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ],
+  "polls": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "a5163f6ce97c7179ec912e7c05f45bede7b27da566e6f4acd7a9f5bdb27bafda"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "b1133475e2a7207cd488ac94528e65cf1a07889e7744169b7f91c5738980f4b6"
+    }
+  ],
+  "votes": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "583716b6541dbc7fd1f83fd0643e9f31130517362823b67cb48deaa0eb8988c8",
+      "vote": "a"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "f7d8d11d6c91ef5b74066495f9c72663c06ea059e1a69b60906decb5ba602e8d",
+      "vote": "b"
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": false
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "bec3b07049e5a4095c01902a10c54a5f55ff0eb296454b561c4c3b18d53bbb63",
+      "vote": "a"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": false
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "157d6453a3f0bc3fc0c5bd5fcb3c660c819e429ea2100522804aa1b0fbf49b27",
+      "vote": "a"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": false
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "e9204ea698b1cc7cb10915ed077f8b0e2ddb969b2b8ae13063b987b167613270",
+      "vote": "a"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "f3648cb988a79b53b29f3b27f6f8b594a5a2ac7e4b1d6b82525af41d4df4de53",
+      "vote": "b"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": false
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "funding": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "68a7e2d2e22d5efce41fc52b0908a7d8377648110f589a40b5c10eafbeb74ccb"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "6c61f85e6986134b41c06a835884851ed00ce70f1c1d1ad3fabde553106ae113"
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": true,
+      "txid": "86dc908beed852d03b96277ff92f036cf0478a9954a7679c638d86c4668ffd08"
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "f585b39edeaba5e34321a151abbc31e1e9f0cb260a8923258acffa220be68a27"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": true,
+      "txid": "ed5cec75d63aa687238eb78d2a8729e334ecc1dd7bb94aecbfb8f557303324c5"
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "07daed52e75b0364ee1e75fa61e3bf7ea5c5fd491376b4f5f81e35420328dd7b"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": true,
+      "txid": "edc3a131a2ccebcd680b96f782aa6fc909beb470a3071158cf87d18eaffd4e9d"
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "81c907eebba4b7554d43ee18366404f786f324f3b582e972df4112dab4e1f739"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "76011437a0281724c9a567386d7fd8cc1248864905d67c452955dd9bb88b7ce3"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": true,
+      "txid": "62857a90a1aabebeefc602bf423d8f541f6eb6b2f004f35494741bd491e7e310"
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ],
+  "tips": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "2300e58eab1aa4c33db31a3c9e96fda066af07e4162af43ba33c2d6b99ed996c"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "cbe2de45a7988bb63144bbaaab6e5cb7ebba2d840efa5ced756df5a2cf846a4b"
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": true,
+      "txid": "addd044b0c14d1a8215f31f12e73d0975523f00f12ac7510cac141951aaff36f"
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "10d69f3f8a28c11a00ff0300aae6343aac3f6a6758ba63ba9c7811da6648a5fb"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": true,
+      "txid": "6cd6099191e9ebb445e655f0bb42064835a0a16e0a479d585c0e4f3bd0fa48cb"
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "cb3e886e797649e5da7f3abf2f250574602b7b9789b768ea28d34265238779d0"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": true,
+      "txid": "f6f46ffd12086a1be0d6f23713c175ddbef1c7d868efcf429fbde02d441fb950"
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "457c87a9ba4fbe3eb453da41581d7d539a928ee0b3d50c533d6b3fd896b2530e"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "c7512548ed668d9b82d8ba7d601ef02a020388981c12329c359f4c39009677de"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": true,
+      "txid": "57780e525154eb01315a552d633d2ceb11fefa77009bd9b1acc30347395f35dc"
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ],
+  "polls": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "fa785b363e8b8abfcb85cbb454944c3e7176d3119b35b61e295dd5c4ed2e56de"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": true,
+      "txid": "088105f9d8356563c5ea07406a2592440b1c2b2c8080eb00a24d3a562d178bdc"
+    }
+  ],
+  "votes": [
+    {
+      "wallet": 1,
+      "success": true,
+      "txid": "eb2ea29cd79c5c5fb198599fcfc5aa25535b49a86883070dff63ff42c5f10f11",
+      "vote": "a"
+    },
+    {
+      "wallet": 2,
+      "success": false
+    },
+    {
+      "wallet": 3,
+      "success": false,
+      "error": "Error fetching nonce. Response 429: Too Many Requests. Attempted to fetch https://api.mainnet.hiro.so/v2/accounts/SPSRE289E837TPXTJ5NS0VNJVZV0DJXNY5GWT4A8?proof=0 and failed with the message: \"Per-minute rate limit exceeded for stacks quota.\nPlease try again in 2 seconds or consider upgrading your plan at\nhttps://platform.hiro.so/upgrade\n\""
+    },
+    {
+      "wallet": 4,
+      "success": false
+    },
+    {
+      "wallet": 5,
+      "success": true,
+      "txid": "98bcaa6d33adc0e94496acb92b176bbb60fde1598208aae62f60579c7025c3a7",
+      "vote": "a"
+    },
+    {
+      "wallet": 6,
+      "success": false
+    },
+    {
+      "wallet": 7,
+      "success": true,
+      "txid": "cc06e9d29a6fea699e801a0568097d351bdcc57db78d1687ec97ddf3050d5553",
+      "vote": "b"
+    },
+    {
+      "wallet": 8,
+      "success": false
+    },
+    {
+      "wallet": 9,
+      "success": true,
+      "txid": "7a31f87ac11b927d33d3a5df9d0038c0ca249c2a8533dec70edc7f8e359e538d",
+      "vote": "a"
+    },
+    {
+      "wallet": 10,
+      "success": false
+    },
+    {
+      "wallet": 11,
+      "success": true,
+      "txid": "c05495810ad83ae99e5ec102f83aa59b367c668b7383c984d2024ecf5cbd7b09",
+      "vote": "a"
+    },
+    {
+      "wallet": 12,
+      "success": false
+    },
+    {
+      "wallet": 13,
+      "success": true,
+      "txid": "62bd96e6366e5ed2eae0b83c50f7543ad4ed3620509ebbe89d3901a62cd9998c",
+      "vote": "a"
+    },
+    {
+      "wallet": 14,
+      "success": false
+    },
+    {
+      "wallet": 15,
+      "success": true,
+      "txid": "11366a2e997bb56c6aab8b175a4a4bd13486ec5dbb4954fd7105d02c20e6ed48",
+      "vote": "b"
+    },
+    {
+      "wallet": 16,
+      "success": false
+    },
+    {
+      "wallet": 17,
+      "success": true,
+      "txid": "f12cb05f65d2329a65f3c7699c58e6c5b8a571d3f0b473555c5132c2a579509e",
+      "vote": "b"
+    },
+    {
+      "wallet": 18,
+      "success": false
+    },
+    {
+      "wallet": 19,
+      "success": true,
+      "txid": "8d5d917571689183c133851fd64d0c46032d91965926766664d29c8f06c5e126",
+      "vote": "b"
+    },
+    {
+      "wallet": 20,
+      "success": false
+    }
+  ]
+}
