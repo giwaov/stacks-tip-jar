@@ -1115,3 +1115,8 @@ This file tracks development activity and transaction milestones for the Stacks 
 - fix: fix bug for API endpoints
 - Session: xfoz7b
 - Build: 1773685529296
+
+## 2026-03-16T18:25:33.776Z
+- docs: update documentation for contract calls
+- Session: kury17
+- Build: 1773685533776
