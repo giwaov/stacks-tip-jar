@@ -1500,3 +1500,8 @@ This file tracks development activity and transaction milestones for the Stacks 
 - style: code style update for contract calls
 - Session: n5v7la
 - Build: 1773686538794
+
+## 2026-03-16T18:42:27.496Z
+- fix: fix bug for error handling
+- Session: xgzk5m
+- Build: 1773686547496
