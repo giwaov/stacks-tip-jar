@@ -1007,3 +1007,5 @@ This file tracks development activity and transaction milestones for the Stacks 
 - [2026-03-12 17:34:38] Processed tip #1000 - TX:0N39PMRCOG
 
 - 2026-03-16T18:08:17.868Z: refactor: code refactoring for API endpoints
+
+- 2026-03-16T18:08:24.705Z: test: add tests for caching
