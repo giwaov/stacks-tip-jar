@@ -202,7 +202,7 @@ export function TipHistory({ tips, userAddress, isLoading = false }: TipHistoryP
                       <span className="text-gray-500">To:</span> {formatAddress(tip.recipient)}
                     </div>
                     {tip.message && (
-                      <p className="text-sm text-gray-300 italic">"{tip.message}"</p>
+                      <p className="text-sm text-gray-300 italic">&ldquo;{tip.message}&rdquo;</p>
                     )}
                   </div>
                   <div className="text-right">
