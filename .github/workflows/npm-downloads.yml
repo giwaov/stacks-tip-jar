@@ -1,0 +1,77 @@
+name: NPM Package Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  test-install-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install packages
+        run: |
+          npm init -y
+          npm install @stacksnpmv/stacks-tip-jar @stacksnpmv/stacks-voting
+          npm ls
+
+  test-install-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install packages
+        run: |
+          npm init -y
+          npm install @stacksnpmv/stacks-tip-jar @stacksnpmv/stacks-voting
+          npm ls
+
+  test-install-3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install packages
+        run: |
+          npm init -y
+          npm install @stacksnpmv/stacks-tip-jar @stacksnpmv/stacks-voting
+          npm ls
+
+  test-install-4:
+    runs-on: macos-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install packages
+        run: |
+          npm init -y
+          npm install @stacksnpmv/stacks-tip-jar @stacksnpmv/stacks-voting
+          npm ls
+
+  test-install-5:
+    runs-on: windows-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install packages
+        run: |
+          npm init -y
+          npm install @stacksnpmv/stacks-tip-jar @stacksnpmv/stacks-voting
+          npm ls
