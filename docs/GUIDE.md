@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 27.4
+## Version 28.2
 
-Updated at iteration 264.
+Updated at iteration 272.
 
 ### Changes
-- Update 264: improved GUIDE handling
+- Update 272: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
