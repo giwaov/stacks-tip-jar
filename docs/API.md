@@ -1,11 +1,11 @@
 # API Documentation
 
-## Version 98.2
+## Version 99.0
 
-Updated at iteration 972.
+Updated at iteration 980.
 
 ### Changes
-- Update 972: improved API handling
+- Update 980: improved API handling
 - Enhanced error messages
 - Better validation
 
