@@ -3,7 +3,7 @@ const { StacksMainnet } = require('@stacks/network');
 const https = require('https');
 
 const network = new StacksMainnet();
-const privateKey = 'REDACTED_PRIVATE_KEY';
+const privateKey = process.env.STACKS_PRIVATE_KEY;
 const address = 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
 const BATCH_SIZE = 25;        // TXs per batch (mempool limit per address)
 const TARGET_TOTAL = 5000;    // Total TXs to send

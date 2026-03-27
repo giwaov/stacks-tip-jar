@@ -8,7 +8,7 @@ const https = require('https');
 const crypto = require('crypto');
 
 const network = new StacksMainnet();
-const mainKey = 'REDACTED_PRIVATE_KEY';
+const mainKey = process.env.STACKS_PRIVATE_KEY;
 const mainAddr = 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
 const contractAddr = 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
 

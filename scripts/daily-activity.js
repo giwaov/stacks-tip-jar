@@ -24,7 +24,7 @@ const fs = require("fs");
 const path = require("path");
 
 // YOUR WALLET - Update if needed
-const PRIVATE_KEY = "REDACTED_PRIVATE_KEY";
+const PRIVATE_KEY = process.env.STACKS_PRIVATE_KEY;
 const CONTRACT_OWNER = "SP3E0DQAHTXJHH5YT9TZCSBW013YXZB25QFDVXXWY";
 
 // Contract names

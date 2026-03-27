@@ -2,7 +2,7 @@ const { makeContractCall, broadcastTransaction, AnchorMode, PostConditionMode, s
 const { StacksMainnet } = require('@stacks/network');
 
 const network = new StacksMainnet();
-const privateKey = 'REDACTED_PRIVATE_KEY';
+const privateKey = process.env.STACKS_PRIVATE_KEY;
 const address = 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
 
 async function getNonce() {

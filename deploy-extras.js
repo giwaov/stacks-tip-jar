@@ -3,8 +3,8 @@ const { StacksMainnet } = require('@stacks/network');
 const https = require('https');
 
 const network = new StacksMainnet();
-const privateKey = 'REDACTED_PRIVATE_KEY';
-const address = 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
+const privateKey = process.env.STACKS_PRIVATE_KEY;
+const address = process.env.STACKS_ADDRESS || 'SP33C21DH86NQ56RYYY69CGD1146H4E5NHNM32W5P';
 
 function httpGet(url) {
   return new Promise((resolve, reject) => {
