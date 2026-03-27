@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 20.7
+## Version 21.6
 
-Updated at iteration 197.
+Updated at iteration 206.
 
 ### Changes
-- Update 197: improved DEPLOYMENT handling
+- Update 206: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
