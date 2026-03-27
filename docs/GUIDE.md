@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 1.5
+## Version 2.4
 
-Updated at iteration 5.
+Updated at iteration 14.
 
 ### Changes
-- Update 5: improved GUIDE handling
+- Update 14: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 

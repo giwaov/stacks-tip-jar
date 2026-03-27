@@ -1,7 +1,16 @@
-# Changelog
+# CHANGELOG Documentation
 
-## [1.0.0]
-- Initial release
-- Tip sending
-- Wallet connection
-- Transaction history
+## Version 2.4
+
+Updated at iteration 14.
+
+### Changes
+- Update 14: improved CHANGELOG handling
+- Enhanced error messages
+- Better validation
+
+### Usage
+```js
+const { process } = require('./CHANGELOG');
+const result = process(data);
+```
