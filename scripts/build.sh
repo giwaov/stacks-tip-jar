@@ -1,4 +1,4 @@
 #!/bin/bash
-# build script v24
-echo "Running build iteration 24"
+# build script v32
+echo "Running build iteration 32"
 exit 0
