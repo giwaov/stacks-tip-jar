@@ -1,4 +1,4 @@
 #!/bin/bash
-# deploy script v32
-echo "Running deploy iteration 32"
+# deploy script v41
+echo "Running deploy iteration 41"
 exit 0
