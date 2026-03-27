@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 43.2
+## Version 44.1
 
-Updated at iteration 422.
+Updated at iteration 431.
 
 ### Changes
-- Update 422: improved DEPLOYMENT handling
+- Update 431: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
