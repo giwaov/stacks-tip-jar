@@ -1,11 +1,11 @@
 # API Documentation
 
-## Version 43.2
+## Version 44.0
 
-Updated at iteration 422.
+Updated at iteration 430.
 
 ### Changes
-- Update 422: improved API handling
+- Update 430: improved API handling
 - Enhanced error messages
 - Better validation
 
