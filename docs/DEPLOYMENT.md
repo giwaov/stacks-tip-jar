@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 16.6
+## Version 17.4
 
-Updated at iteration 156.
+Updated at iteration 164.
 
 ### Changes
-- Update 156: improved DEPLOYMENT handling
+- Update 164: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 

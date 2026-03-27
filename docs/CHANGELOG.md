@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 15.8
+## Version 17.4
 
-Updated at iteration 148.
+Updated at iteration 164.
 
 ### Changes
-- Update 148: improved CHANGELOG handling
+- Update 164: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 

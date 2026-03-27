@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 16.5
+## Version 17.4
 
-Updated at iteration 155.
+Updated at iteration 164.
 
 ### Changes
-- Update 155: improved GUIDE handling
+- Update 164: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
