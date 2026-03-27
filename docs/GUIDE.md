@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 39.0
+## Version 39.9
 
-Updated at iteration 380.
+Updated at iteration 389.
 
 ### Changes
-- Update 380: improved GUIDE handling
+- Update 389: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
