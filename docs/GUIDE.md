@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 84.9
+## Version 85.7
 
-Updated at iteration 839.
+Updated at iteration 847.
 
 ### Changes
-- Update 839: improved GUIDE handling
+- Update 847: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
