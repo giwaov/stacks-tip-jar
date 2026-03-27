@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 9.0
+## Version 9.9
 
-Updated at iteration 80.
+Updated at iteration 89.
 
 ### Changes
-- Update 80: improved GUIDE handling
+- Update 89: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
