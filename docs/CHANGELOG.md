@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 24.9
+## Version 25.8
 
-Updated at iteration 239.
+Updated at iteration 248.
 
 ### Changes
-- Update 239: improved CHANGELOG handling
+- Update 248: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 
