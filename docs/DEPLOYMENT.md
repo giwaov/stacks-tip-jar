@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 5.7
+## Version 6.6
 
-Updated at iteration 47.
+Updated at iteration 56.
 
 ### Changes
-- Update 47: improved DEPLOYMENT handling
+- Update 56: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
