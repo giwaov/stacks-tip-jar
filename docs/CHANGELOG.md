@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 35.8
+## Version 36.6
 
-Updated at iteration 348.
+Updated at iteration 356.
 
 ### Changes
-- Update 348: improved CHANGELOG handling
+- Update 356: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 
