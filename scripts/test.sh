@@ -1,4 +1,4 @@
 #!/bin/bash
-# test script v8
-echo "Running test iteration 8"
+# test script v16
+echo "Running test iteration 16"
 exit 0
