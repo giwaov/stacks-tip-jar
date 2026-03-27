@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 95.7
+## Version 96.6
 
-Updated at iteration 947.
+Updated at iteration 956.
 
 ### Changes
-- Update 947: improved DEPLOYMENT handling
+- Update 956: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
