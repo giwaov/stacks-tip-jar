@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 62.4
+## Version 63.2
 
-Updated at iteration 614.
+Updated at iteration 622.
 
 ### Changes
-- Update 614: improved GUIDE handling
+- Update 622: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
