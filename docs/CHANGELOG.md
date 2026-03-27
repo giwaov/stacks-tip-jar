@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 59.1
+## Version 60.8
 
-Updated at iteration 581.
+Updated at iteration 598.
 
 ### Changes
-- Update 581: improved CHANGELOG handling
+- Update 598: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 
