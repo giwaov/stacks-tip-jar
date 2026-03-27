@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 3.3
+## Version 4.1
 
-Updated at iteration 23.
+Updated at iteration 31.
 
 ### Changes
-- Update 23: improved CHANGELOG handling
+- Update 31: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 

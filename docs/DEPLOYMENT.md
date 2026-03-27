@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 2.4
+## Version 4.1
 
-Updated at iteration 14.
+Updated at iteration 31.
 
 ### Changes
-- Update 14: improved DEPLOYMENT handling
+- Update 31: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
