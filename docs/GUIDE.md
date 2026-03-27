@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 91.5
+## Version 92.4
 
-Updated at iteration 905.
+Updated at iteration 914.
 
 ### Changes
-- Update 905: improved GUIDE handling
+- Update 914: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
