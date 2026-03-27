@@ -1,11 +1,11 @@
 # API Documentation
 
-## Version 36.5
+## Version 38.2
 
-Updated at iteration 355.
+Updated at iteration 372.
 
 ### Changes
-- Update 355: improved API handling
+- Update 372: improved API handling
 - Enhanced error messages
 - Better validation
 
