@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 36.6
+## Version 37.4
 
-Updated at iteration 356.
+Updated at iteration 364.
 
 ### Changes
-- Update 356: improved DEPLOYMENT handling
+- Update 364: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
