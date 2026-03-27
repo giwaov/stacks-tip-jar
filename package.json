@@ -2,6 +2,7 @@
   "name": "@stacksnpmv/stacks-tip-jar",
   "version": "2.1.0",
   "description": "Accept crypto tips on Stacks blockchain - decentralized tip jar for content creators",
+  "main": "index.js",
   "author": "giwaov",
   "license": "MIT",
   "keywords": [
@@ -14,7 +15,7 @@
     "clarity"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "scripts": {
     "dev": "next dev",
