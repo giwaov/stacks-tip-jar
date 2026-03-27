@@ -1,11 +1,11 @@
 # DEPLOYMENT Documentation
 
-## Version 11.6
+## Version 13.2
 
-Updated at iteration 106.
+Updated at iteration 122.
 
 ### Changes
-- Update 106: improved DEPLOYMENT handling
+- Update 122: improved DEPLOYMENT handling
 - Enhanced error messages
 - Better validation
 
