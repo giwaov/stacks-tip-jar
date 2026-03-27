@@ -1,11 +1,11 @@
 # CHANGELOG Documentation
 
-## Version 10.8
+## Version 11.6
 
-Updated at iteration 98.
+Updated at iteration 106.
 
 ### Changes
-- Update 98: improved CHANGELOG handling
+- Update 106: improved CHANGELOG handling
 - Enhanced error messages
 - Better validation
 
