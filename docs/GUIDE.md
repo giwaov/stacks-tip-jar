@@ -1,11 +1,11 @@
 # GUIDE Documentation
 
-## Version 70.7
+## Version 72.4
 
-Updated at iteration 697.
+Updated at iteration 714.
 
 ### Changes
-- Update 697: improved GUIDE handling
+- Update 714: improved GUIDE handling
 - Enhanced error messages
 - Better validation
 
