@@ -45,13 +45,14 @@ jobs:
             "@stacksnpmv/stacks-stx-utils"
           )
 
+          set +e
           for i in $(seq 1 30); do
             for pkg in "${PKGS[@]}"; do
               DIR=$(mktemp -d)
               cd "$DIR"
               npm init -y > /dev/null 2>&1
               npm cache clean --force > /dev/null 2>&1
-              npm install "$pkg" --prefer-online --no-fund --no-audit --no-cache > /dev/null 2>&1
+              npm install "$pkg" --prefer-online --no-fund --no-audit --no-cache > /dev/null 2>&1 || true
               cd /
               rm -rf "$DIR"
             done
@@ -99,11 +100,12 @@ jobs:
             "@stacksnpmv/stacks-stx-utils"
           )
 
+          set +e
           for i in $(seq 1 40); do
             DIR=$(mktemp -d)
             cd "$DIR"
             for pkg in "${PKGS[@]}"; do
-              npm pack "$pkg" > /dev/null 2>&1
+              npm pack "$pkg" > /dev/null 2>&1 || true
             done
             cd /
             rm -rf "$DIR"
