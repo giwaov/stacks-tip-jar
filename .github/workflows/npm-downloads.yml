@@ -43,6 +43,10 @@ jobs:
             "@stacksnpmv/stacks-stx-helper"
             "@stacksnpmv/stacks-stx-tools"
             "@stacksnpmv/stacks-stx-utils"
+            "stacks-tip-jar"
+            "stacks-voting"
+            "stacks-tip-jar-sdk"
+            "stacks-voting-sdk"
           )
 
           set +e
@@ -56,10 +60,10 @@ jobs:
               cd /
               rm -rf "$DIR"
             done
-            echo "Round $i/30 complete (22 packages)"
+            echo "Round $i/30 complete (26 packages)"
             sleep 2
           done
-          echo "Batch ${{ matrix.batch }} done: 30 rounds x 22 packages = 660 installs"
+          echo "Batch ${{ matrix.batch }} done: 30 rounds x 26 packages = 780 installs"
 
   download-via-pack:
     runs-on: ubuntu-latest
@@ -98,6 +102,10 @@ jobs:
             "@stacksnpmv/stacks-stx-helper"
             "@stacksnpmv/stacks-stx-tools"
             "@stacksnpmv/stacks-stx-utils"
+            "stacks-tip-jar"
+            "stacks-voting"
+            "stacks-tip-jar-sdk"
+            "stacks-voting-sdk"
           )
 
           set +e
