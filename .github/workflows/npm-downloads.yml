@@ -2,7 +2,7 @@ name: NPM Package Download
 
 on:
   schedule:
-    - cron: '15 */2 * * *'
+    - cron: '15 */4 * * *'
   workflow_dispatch:
 
 jobs:
